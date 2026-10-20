@@ -78,12 +78,9 @@ fun Dice( modifier: Modifier = Modifier) {
                         },
                         onDoubleTap = {
                             diceNumber = 0
-                        }
-                    )
-                }
+                        },
 
-                .clickable {
-                    diceNumber = (1..6).random()
+                    )
                 }
 
         )
